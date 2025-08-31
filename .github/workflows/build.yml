@@ -46,7 +46,7 @@ jobs:
         product: "radxa-cm3-rpi-cm4-io"
     - id: "query"
       name: "Query product info"
-      uses: "RadxaOS-SDK/rsdk/.github/actions/query@main"
+      uses: "AaronDewes/rsdk/.github/actions/query@main"
       with:
         product: "radxa-cm3-rpi-cm4-io"
     - id: "release"
