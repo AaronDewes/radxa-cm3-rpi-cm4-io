@@ -8,7 +8,7 @@ jobs:
     - name: "Checkout"
       uses: "actions/checkout@v5"
     - name: "Build image"
-      uses: "RadxaOS-SDK/rsdk/.github/actions/build@main"
+      uses: "AaronDewes/rsdk/.github/actions/build@main"
       with:
         edition: "${{ matrix.edition }}"
         github-token: "${{ secrets.GITHUB_TOKEN }}"
